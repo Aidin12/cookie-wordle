@@ -1,57 +1,111 @@
-🎮🪵🔥🍡 MarshmellowGrid 🍡🔥🪵
-My custom made, Wordle clone built with vanilla HTML/CSS/JS—perfect for surprising someone special! Customize the secret word and win message, then deploy in seconds to share a sweet, interactive puzzle.
-🚀 Live Demo
-Local:
-# From project root:
-live-server index.html
-or
-python3 -m http.server 8000
-# then visit http://localhost:8000/index.html
-Online:
-Deployed via Netlify Drop (example):
-https://fancy-alpaca-12345.netlify.app
-✨ Features
-💜 Purple & Blue feedback instead of Wordle’s green/yellow
-📱 Responsive grid & on-screen keyboard—works on desktop & mobile
-🔒 Custom secret word (e.g. "GRASS")
-💌 Custom win message (e.g. “Meet me at the coffee shop at 6PM ☕”)
-⚡ Zero-dependency—no build step, no frameworks
-📁 File Structure
-SoftGirlWordle/
-├── index.html    ← markup & link to CSS + JS  
-├── style.css     ← pastel, responsive grid + keyboard styles  
-└── script.js     ← game logic, animation, win/lose handlers  
-⚙️ Installation & Usage
-Clone or download this folder to your machine.
-Open the folder in VS Code (or your editor of choice).
-Serve the files:
-With Live Server: click “Go Live” on index.html
-Or via Python:
-cd yourfoldername
-python3 -m http.server 8000
-Play at http://localhost:8000/index.html (or your Live Server URL).
-🎨 Customization
-Secret word:
-In script.js, edit:
-const WORD = "MOCHA";  
-→ change "MOCHA" to any 5-letter uppercase string.
-Win message:
-In script.js → gameWon():
-showMessage("🎉 You won! Meet me at the coffee shop at 6PM ☕💜", "green");
-→ replace text inside showMessage(...).
-Colors & layout:
-Tweak style.css variables in the :root block or adjust grid/keyboard rules.
-🌐 Deployment
-Netlify Drop (fastest)
-Compress the SoftGirlWordle/ folder to SoftGirlWordle.zip.
-Go to https://app.netlify.com/drop
-Drag & drop your zip.
-Share the provided public URL.
-GitHub Pages
-Push this folder to a GitHub repo.
-In Settings → Pages, select branch main and root folder /.
-GitHub will publish at
-https://<your-username>.github.io/<repo-name>/.
-📜 License
-MIT © RoastieMarshmallowCookie aka Aidin12
-🎮🪵🔥🍡 MarshmellowGrid 🍡🔥🪵
+# 🎮 MarshmallowGrid 🍡🪵🔥🤍
+
+A soft-girl, pastel-themed word-guessing grid game built with **vanilla HTML/CSS/JS**, perfect for surprising someone special! Customize the secret word and win message, then deploy in seconds to share a sweet, interactive puzzle.
+
+---
+
+## 🚀 Live Demo
+
+* **Local**
+
+  ```bash
+  # From project root:
+  live-server index.html
+  ```
+
+  or
+
+  ```bash
+  python3 -m http.server 8000
+  # then visit http://localhost:8000/index.html
+  ```
+
+* **Online**: Deployed via Netlify Drop (example):
+  [https://fancy-alpaca-12345.netlify.app](https://fancy-alpaca-12345.netlify.app)
+
+---
+
+## ✨ Features
+
+* 💜 Purple & blue feedback instead of Wordle’s green/yellow
+* 📱 Responsive grid & on-screen keyboard—works on desktop & mobile
+* 🔒 Custom secret word (default: `MOCHA`)
+* 💌 Custom win message (edit in `script.js`)
+* ⚡ Zero-dependency—no build step, no frameworks
+
+---
+
+## 📁 File Structure
+
+```
+MarshmallowGrid/
+├── index.html    # Markup & links to CSS + JS
+├── style.css     # Pastel, responsive grid + keyboard styles
+└── script.js     # Game logic, animation, win/lose handlers
+```
+
+---
+
+## ⚙️ Installation & Usage
+
+1. **Download** or **clone** this folder.
+2. **Open** it in VS Code (or your editor of choice).
+3. **Serve** the files:
+
+   * With **Live Server**: click “Go Live” on `index.html`
+   * Or via **Python**:
+
+     ```bash
+     cd MarshmallowGrid
+     python3 -m http.server 8000
+     ```
+4. **Play** at `http://localhost:8000/index.html` (or your Live Server URL).
+
+---
+
+## 🎨 Customization
+
+* **Secret word**: In `script.js`, edit:
+
+  ```js
+  const WORD = "MOCHA";
+  ```
+
+  Change to any **5-letter uppercase** string.
+
+* **Win message**: In `script.js` ➔ `gameWon()`:
+
+  ```js
+  showMessage("🎉 You won! Meet me at the coffee shop at 6PM ☕💜", "green");
+  ```
+
+  Replace text inside `showMessage(...)`.
+
+* **Colors & layout**: Tweak `style.css` variables in the `:root` block or adjust grid/keyboard rules.
+
+---
+
+## 🌐 Deployment
+
+### Netlify Drop (fastest)
+
+1. **Compress** the `MarshmallowGrid/` folder to `MarshmallowGrid.zip`.
+2. Go to [https://app.netlify.com/drop](https://app.netlify.com/drop)
+3. **Drag & drop** your zip.
+4. Share the provided public URL.
+
+### GitHub Pages
+
+1. Push this folder to a GitHub repo.
+2. In **Settings** → **Pages**, select branch `main` and root folder `/`.
+3. GitHub will publish at `https://<username>.github.io/<repo>/`.
+
+---
+
+## 📜 License
+
+MIT © CookieMarshmallow aka Aidin12
+
+---
+
+> “Guess the word, one fluffy square at a time.” 🟪🟦
