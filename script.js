@@ -113,7 +113,7 @@ function checkRow() {
 
 function gameWon() {
   isGameOver = true;
-  showMessage(`🎉 You won! Meet me at the coffee shop at 6PM ☕💜`, "green");
+  showMessage(`🎁 You levelled up....here's the invitation to the start of your birthday adventure! 🛤️🎉🎁🎂Your girlfriend will meet you at Nottingham Train station, Tuesday 12th August 2025 🤍🩵🩷`, "pink");
 }
 
 function gameOver() {
