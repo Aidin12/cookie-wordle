@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-README.md content:
+
 # 🎮 MarshmallowGrid 🍡🪵🔥🤍
 
 My custom wordle-inspired word-guessing grid game built with **vanilla HTML/CSS/JS**, perfect for surprising someone special! Customize the secret word and win message, then deploy in seconds to share a sweet, interactive puzzle.
@@ -153,4 +152,3 @@ MIT © CookieMarshmallow aka Aidin12
 ---
 
 > “Guess the word, one fluffy square at a time.” 🟪🟦
->>>>>>> a7210d1c1f6dcc12b6e19c1fff9cfdce6a0e7f28
