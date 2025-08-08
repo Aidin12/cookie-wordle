@@ -1,5 +1,5 @@
 
-const WORD = "PASTA"; // your custom 5-letter word, uppercase
+const WORD = "STEAK"; // your custom 5-letter word, uppercase
 const ROWS = 5;
 const COLS = 5;
 let currentRow = 0;
