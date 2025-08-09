@@ -1,5 +1,5 @@
 
-const WORD = "STEAK"; // your custom 5-letter word, uppercase
+const WORD = "CABIN"; // your custom 5-letter word, uppercase
 const ROWS = 5;
 const COLS = 5;
 let currentRow = 0;
@@ -113,7 +113,7 @@ function checkRow() {
 
 function gameWon() {
   isGameOver = true;
-  showMessage(`🥩🔥🪵 You levelled up...baby racoon can now help baby dragon 🔥 to find and order a tomahawk steak 🥩🔥🥩🪵🥩 🤍🩵🩷`, "pink");
+  showMessage(`🥩🔥⭐️🪵 You levelled up...baby racoon can learn more abour her birthday quest with baby dragon 🔥 their destination - a cabin with a star gazing spot ⭐️🥩🔥🪵 🤍🩵🩷`, "pink");
 }
 
 function gameOver() {
