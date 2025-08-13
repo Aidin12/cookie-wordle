@@ -1,5 +1,5 @@
 
-const WORD = "DRIVE"; // your custom 5-letter word, uppercase
+const WORD = "BOOTY"; // your custom 5-letter word, uppercase
 const ROWS = 5;
 const COLS = 5;
 let currentRow = 0;
@@ -113,7 +113,7 @@ function checkRow() {
 
 function gameWon() {
   isGameOver = true;
-  showMessage(`🥩🔥⭐️�🦝� You levelled up...baby racoon 🦝will be picked up by her private uber driver - baby dragon via dragon transport services 🐲🚙🚕🪵 🤍🩵🩷`, "pink");
+  showMessage(`🥩🔥⭐️ NOW THAT YOU GOT THE GUESS CORRECT, SHAKE IT BABYYYYY 🤍🩵🩷`, "blue");
 }
 
 function gameOver() {
