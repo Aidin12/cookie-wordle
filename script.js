@@ -1,5 +1,5 @@
 
-const WORD = "BOOTY"; // your custom 5-letter word, uppercase
+const WORD = "MAGIC"; // your custom 5-letter word, uppercase
 const ROWS = 5;
 const COLS = 5;
 let currentRow = 0;
@@ -113,7 +113,7 @@ function checkRow() {
 
 function gameWon() {
   isGameOver = true;
-  showMessage(`🥩🔥⭐️ NOW THAT YOU GOT THE GUESS CORRECT, SHAKE IT BABYYYYY 🤍🩵🩷`, "blue");
+  showMessage(`🎸✨🪄🤍💖 Happy Birthday Daddy!!! From Cookie and Harley. WIshing you many more filled with health, laughter, happiness, peace and contentment 🎸✨🪄🤍💖`, "blue");
 }
 
 function gameOver() {
